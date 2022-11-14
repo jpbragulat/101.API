@@ -10,6 +10,7 @@ namespace _101.API.Data
         public _101DbContext(DbContextOptions<_101DbContext> options) : base(options) { }
         
         public DbSet<Users> Users { get; set; } // tiene q llamarse igual que la DB
+        public DbSet<Cars> Cars { get; set; }
 
        // protected override void OnModelCreating(ModelBuilder modelBuilder)
        //{
